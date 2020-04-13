@@ -17,11 +17,11 @@ $message .= "message: ".$_POST['message']."\r\n";
 $message .= "enviado el: ".date('d/m/Y',time());
 
 
-$para = 'consultas@servitecflhuaraz.com';
+$para = 'jonathan777gutierrez@gmail.com';
 $asunto = 'message de mi web';
 
 if(mail($para,$asunto,utf8_decode($message),$header))
 echo "<script type='text/javascript'>alert('Tu message ha sido enviado exitosamente');</script>";
-echo "<script type='text/javascript'>window.location.href='http://servitecflhuaraz.com';</script>";
+echo "<script type='text/javascript'>window.location.href='https://jona7han.github.io/store-at-hand/';</script>";
 
  ?>
